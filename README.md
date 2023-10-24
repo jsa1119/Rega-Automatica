@@ -1,2 +1,2 @@
 # Rega Automatica
- Projeto de Instromentação
+ Projeto de Microcontroladores e Instrumentação
