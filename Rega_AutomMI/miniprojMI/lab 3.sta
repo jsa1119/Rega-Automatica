@@ -1,0 +1,61 @@
+
+ROM used: 3679 (45%)
+          4085 (50%) including unused fragments
+
+          3 Average locations per line
+          5 Average locations per statement
+
+RAM used: 67 (18%) at main() level
+          72 (20%) worst case
+
+Stack used: 5 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1128   761 100  lab 3.c
+  326     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\16F877A.h
+----- -----
+ 1454   761 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   1   1             @delay_ms1
+0     53   1   0   260  3.6  rtcc_interrup
+0     12   0   0    48  1.1  activa
+0     11   0   1    54  1.2  transfere_carac
+0     11   0   1    54  1.2  transfere_inst
+0     27   1   0   152  1.8  ini_lcd
+1    932  25   7  7162  8.5  MAIN
+0     37   1   2             @MUL88
+0    153   4   0   745  3.4  fun_horas
+0     37   1   5             @DIV1616
+0    193   5   0  1829  4.4  menu
+0    178   5   1  1672  6.9  hacerto
+0    508  14   8  4340  6.4  def_hregaZ1
+1    553  15   5  4077  6.4  def_hregaZ2
+1    552  15   5  4050  6.9  def_hregaZ3
+0    355  10   3  3903  3.5  ler_tecla
+
+Program metrics:
+    Functions               13
+    Statements              761
+    Comments                232
+    Volume (V)              39375
+    Difficilty (D)          56.5
+    Effort to implement (E) 2225395
+    Time to implement (T)   34 hours, 21 minutes
+    Est Delivered Bugs (B)  6
+    Cyclomatic Complexity   84
+    Maintainability (MI)    75
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0002E    43  0  
+0002F-007FF  1595  406  
+00800-00FFF  2037  11  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

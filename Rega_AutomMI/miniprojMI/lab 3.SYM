@@ -1,0 +1,180 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027-028 caracter
+029-02A instrucao
+02B-02C contador
+02D-02E horas
+02F-030 minutos
+031-032 segundos
+033-034 hu
+035-036 hd
+037-038 mu
+039-03A md
+03B-03C su
+03D-03E sd
+03F     tecla
+040     dhz1
+041     uhz1
+042     dmz1
+043     umz1
+044     dhz2
+045     uhz2
+046     dmz2
+047     umz2
+048     dhz3
+049     uhz3
+04A     dmz3
+04B     umz3
+04C-04D mintZ1
+04E-04F mintZ2
+050-051 mintZ3
+052     hacdh
+053     hacuh
+054     hacdm
+055     hacum
+056     @TRIS_C
+057     MAIN.i
+058     MAIN.z1
+059     MAIN.z2
+05A     MAIN.z3
+05B-05C @DIV1616.P1
+05B     def_hregaZ2.dhoras
+05B     @MUL88.P1
+05B     def_hregaZ1.dhoras
+05B     def_hregaZ3.dhoras
+05B     MAIN.@SCRATCH1
+05B     hacerto.@SCRATCH1
+05C     def_hregaZ2.uhoras
+05C     def_hregaZ3.uhoras
+05C     @MUL88.P1
+05C     def_hregaZ1.uhoras
+05C     MAIN.@SCRATCH2
+05D     def_hregaZ1.dminutos
+05D     def_hregaZ2.dminutos
+05D     def_hregaZ3.dminutos
+05D-05E @DIV1616.P1
+05D     MAIN.@SCRATCH3
+05E     def_hregaZ2.uminutos
+05E     def_hregaZ3.uminutos
+05E     def_hregaZ1.uminutos
+05F     transfere_inst.inst
+05F     transfere_carac.carac
+05F     @DIV1616.@SCRATCH1
+05F     def_hregaZ1.@SCRATCH1
+05F     def_hregaZ2.@SCRATCH1
+05F     def_hregaZ3.@SCRATCH1
+05F     ler_tecla.@SCRATCH1
+060     @delay_ms1.P1
+060     def_hregaZ1.@SCRATCH2
+060     ler_tecla.@SCRATCH2
+061     def_hregaZ1.@SCRATCH3
+061     ler_tecla.@SCRATCH3
+062     def_hregaZ1.@SCRATCH4
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+09C.6   C1OUT
+09C.7   C2OUT
+0FF     @INTERRUPT_AREA
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+0064  @delay_ms1
+002F  rtcc_interrup
+0078  activa
+00CF  transfere_carac
+0084  transfere_inst
+008F  ini_lcd
+0C51  MAIN
+0449  @MUL88
+00DA  fun_horas
+00AA  @DIV1616
+02D6  menu
+0397  hacerto
+046E  def_hregaZ1
+0800  def_hregaZ2
+0A29  def_hregaZ3
+0173  ler_tecla
+0C51  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\Admin\Desktop\ESTCB\1º Semetrite\MI\MNprojeto\miniprojMI\
+
+Project Files:
+    lab 3.c
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\16F877A.h
+
+Units:
+    C:\Users\Admin\Desktop\ESTCB\1º Semetrite\MI\MNprojeto\miniprojMI\lab 3 (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      lab 3.err
+    Ext Symbols: lab 3.esym
+    INHX8:       lab 3.hex
+    Symbols:     lab 3.sym
+    List:        lab 3.lst
+    Debug/COFF:  lab 3.cof
+    Project:     lab 3.PJT
+    Call Tree:   lab 3.tre
+    Statistics:  lab 3.sta
